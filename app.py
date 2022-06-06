@@ -1,7 +1,7 @@
 import streamlit as st
 from multiapp import MultiApp
 # import your app modules here
-from apps import main, analysis, smain
+from apps import main, analysis#, smain
 app = MultiApp()
 st.set_page_config(layout="wide")
 
