@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 # Add all your application here
 app.add_app("Main Page", main.app)
 app.add_app("Analysis", analysis.app)
-app.add_app("bugreport", smain.app)
+# app.add_app("bugreport", smain.app)
 
 # The main app
 app.run()
