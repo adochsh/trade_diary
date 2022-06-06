@@ -7,7 +7,7 @@ from gsheetsdb import connect
 #@st.cache(suppress_st_warning=True)
 
 def app():
-    st.header('Main !Page')
+    st.header('Trader diary')
 
 
 st.sidebar.header("Filters:")
