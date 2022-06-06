@@ -30,8 +30,8 @@ def run_query(query):
 
 sheet_url = st.secrets["public_gsheets_url"]
 # Print results.
-for row in rows:
-    st.write(f"{row.name} has a :{row.pet}:")
+# for row in rows:
+#     st.write(f"{row.name} has a :{row.pet}:")
 ####lmfvmvflkvm
 
 helloooo
