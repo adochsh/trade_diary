@@ -39,7 +39,7 @@ class MultiApp:
 
     def run(self):
         ### TITLE ###
-        original_title = '<p style="font-family:Serif; color:white; font-size:30px;">RIES NAVIGATOR</p>'
+        original_title = '<p style="font-family:Serif; color:white; font-size:30px;"></p>'
         st.sidebar.markdown(original_title, unsafe_allow_html=True)
 
         app = st.sidebar.selectbox( 'Pages',
